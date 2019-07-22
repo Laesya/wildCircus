@@ -5,13 +5,17 @@
 @import url('https://fonts.googleapis.com/css?family=Literata&display=swap');
 /*font-family: 'Literata', serif;*/
 
-@media (min-width: 576px){
-    .modal-dialog {
-    max-width: 750px;
-    margin: 1.75rem auto;
+@media (max-width: 930px){
+    .slogan {
+        font-size: 32px;
     }
 }
 
+@media (max-width: 645px){
+    .slogan {
+        font-size: 22px;
+    }
+}
 
 /*HomePage*/
 .HomePage {
